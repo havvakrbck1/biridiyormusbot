@@ -2,7 +2,7 @@ import telebot
 import random
 import time
 
-TOKEN = '7621894741:AAGFaBkVCaxtYxEpFbPaYxAKSEvOXGL8GFg'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 aktif_kullanicilar = {}
