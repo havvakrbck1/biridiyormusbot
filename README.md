@@ -1,44 +1,21 @@
-# 🎭 Yalancı Dost Botu
+```markdown
+# Did You Know Bot
 
-Bu Python botu, kullanıcılara sahte ama eğlenceli sohbetler sunar. Bot, kullanıcıların yalnızlık hissine kapıldığında veya basit bir sohbet yapmak istediklerinde onları dinler. Fakat, karşınızda gerçek bir insan yoktur; bunun yerine eğlenceli ve duygusal cevaplarla sohbet başlatılır!
+A Telegram bot that shares random interesting facts with users.
 
-## 🧠 Özellikler
-- `/konus` komutuyla sahte bir sohbet başlatılır.
-- Bot, kullanıcılar arasında sohbet ederken duygu bazlı yanıtlar verir (aşk, yalnızlık, mutluluk vb.).
-- `/bitir` komutuyla sohbet sonlandırılabilir.
-- Genel sohbet cevaplarıyla, kullanıcıların söylediklerine uygun sahte yanıtlar verilir.
+## Features
+- Sends random facts
+- User-friendly interface
+- Regular updates
 
-## 🚀 Kullanılan Teknolojiler
-- Python
-- Telebot (Telegram bot API)
-- random (rastgele cevaplar için)
-- time (gecikme eklemek için)
+## Technologies Used
+- Python 3
+- Telegram Bot API
 
-## ⚙️ Kurulum
+## Installation
 
-1. Projeyi klonlayın:
-
-    ```bash
-    git clone https://github.com/havvakrbck1/yalancibiri.py.git
-    cd yalancibiri.py
-    ```
-
-2. Gerekli Python kütüphanelerini yükleyin:
-
-    ```bash
-    pip install pyTelegramBotAPI
-    ```
-
-3. `TOKEN` değişkenini, [Telegram BotFather](https://core.telegram.org/bots#botfather) üzerinden aldığınız token ile güncelleyin.
-
-4. Botu çalıştırın:
-
-    ```bash
-    python yalancibiri.py
-    ```
-
-## 🧬 Katkı
-- Sohbet cevapları daha da çeşitlendirilebilir.
-- Botun performansını iyileştirmek için katkılarda bulunabilirsiniz.
-
-
+```bash
+git clone https://github.com/havvakrbck1/did-you-know-bot.git
+cd did-you-know-bot
+pip install -r requirements.txt
+python bot.py
